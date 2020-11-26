@@ -78,3 +78,18 @@
         width: 180%;
     }
 }
+
+@media screen and (max-width: 768px){
+	.wraper{ width:100%; margin:auto;}
+	.header{ display:block; padding:0; margin:0; height:auto;}
+	/* .logo{ width:100px; height:100px; margin:auto; padding:10px;} */
+	.nav{ width:auto; padding:10px; justify-content: space-around; border-top:2px solid #E47066;}
+	.menu { flex-direction:column; height: auto;}
+	.menu a{ width:100%; text-align:center; line-height:40px;}
+	.container{ padding:0; margin:0;}
+	.project{ margin:auto; }
+	.project .tit{ margin:auto; padding:20px;}
+	.project ul{ display:block;}
+	.project ul li{ width:100%;}
+	.project ul li .pic{ height:300px;}
+}
