@@ -56,27 +56,76 @@
         max-width: 95px;
     }
 }
+
 @media (min-width: 992px) and (max-width: 1199px)
 {
     .logo img {
         width: 85%;
     }
+	.f-nav-round-img{
+		height: 95%;
+	}
+	.navdonatebtn {
+		padding: 12px 50px;
+	}
+	.f-navdonatebtn-font {
+		font-size: 18px;
+	}
+	.f-widget-title h5 {
+		font-size: 22px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px)
 {
     .logo img {
         width: 130%;
     }
+	.f-nav-round-img{
+		height: 75%;
+	}
+	.navdonatebtn {
+		padding: 12px 45px;
+	}
+	.f-navdonatebtn-font {
+		font-size: 16px;
+	}
+	.f-widget-title h5 {
+		font-size: 20px;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .logo img {
         width: 150%;
     }
+    .f-nav-round-img{
+		height: 40%;
+	}
+	.navdonatebtn {
+		padding: 12px 45px;
+	}
+	.f-navdonatebtn-font {
+		font-size: 12px;
+	}
+	.f-widget-title h5 {
+		font-size: 18px;
+	}
 }
 @media (max-width: 575px) {
     .logo img {
         width: 180%;
     }
+	.f-nav-round-img{
+		height: 40%;
+	}
+	.navdonatebtn {
+		padding: 12px 35px;
+	}
+	.f-navdonatebtn-font {
+		font-size: 10px;
+	}
+	.f-widget-title h5 {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 768px){
