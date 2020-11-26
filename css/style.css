@@ -98,7 +98,7 @@ body {
 	overflow: hidden
 }
 
- .col-lg-2, .col-lg-6, .col-lg-9{
+ .col-lg-2, .col-lg-9{
     position: relative;
     /* width: 100%; */
     padding-right: 15px;
@@ -325,6 +325,13 @@ margin-top: 5px;
 	bottom:20px;
 	width:auto;
 	color: azure;
+}
+
+.svc-copyright {
+	right:0px;
+	bottom:20px;
+	width:auto;
+	text-align: right;
 }
 
 .btn.ss-btn {
